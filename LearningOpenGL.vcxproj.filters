@@ -21,11 +21,16 @@
     <ClCompile Include="glad.c">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Arquivos de Origem\tutorial1_window</Filter>
+    <ClCompile Include="tutorial2_triangle.cpp">
+      <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tutorial1_window.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
