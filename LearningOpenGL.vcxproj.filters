@@ -16,6 +16,18 @@
     <Filter Include="Arquivos de Origem\tutorial1_window">
       <UniqueIdentifier>{d8c01c03-3891-4802-b84b-ec84437f1aaa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Recurso\tutorial4_organizing">
+      <UniqueIdentifier>{ed613d1b-1ccc-423a-a097-ee84cae3a187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Recurso\tutorial4_organizing\Shaders">
+      <UniqueIdentifier>{f5b8f4e1-2053-41ae-b5cd-133f017a7d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\tutorial4_organizing">
+      <UniqueIdentifier>{6b21d8d9-6471-436f-bd58-0053b32b63f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\tutorial4_organizing">
+      <UniqueIdentifier>{03dc64d0-6d1c-42f4-b8a7-1f8d1324f4eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -27,6 +39,24 @@
     <ClCompile Include="tutorial3_index_buffer.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="tutorial4_organizing.cpp">
+      <Filter>Arquivos de Origem\tutorial4_organizing</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderClass.cpp">
+      <Filter>Arquivos de Origem\tutorial4_organizing</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Arquivos de Origem\tutorial4_organizing</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.hpp">
+      <Filter>Arquivos de Cabeçalho\tutorial4_organizing</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Arquivos de Origem\tutorial4_organizing</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Arquivos de Origem\tutorial4_organizing</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
@@ -35,5 +65,22 @@
     <ClInclude Include="tutorial1_window.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClInclude>
+    <ClInclude Include="shaderClass.hpp">
+      <Filter>Arquivos de Cabeçalho\tutorial4_organizing</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.hpp">
+      <Filter>Arquivos de Cabeçalho\tutorial4_organizing</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.hpp">
+      <Filter>Arquivos de Cabeçalho\tutorial4_organizing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="fragment_tutorial4.frag">
+      <Filter>Arquivos de Recurso\tutorial4_organizing\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="default_tutorial4.vert">
+      <Filter>Arquivos de Recurso\tutorial4_organizing\Shaders</Filter>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>

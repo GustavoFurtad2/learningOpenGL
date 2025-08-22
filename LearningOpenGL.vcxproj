@@ -137,11 +137,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EBO.cpp" />
+    <ClCompile Include="EBO.hpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="shaderClass.cpp" />
     <ClCompile Include="tutorial3_index_buffer.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="tutorial4_organizing.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="VBO.cpp" />
+    <ClInclude Include="shaderClass.hpp" />
     <ClInclude Include="tutorial1_window.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -150,8 +157,18 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClInclude Include="VAO.hpp" />
+    <ClInclude Include="VBO.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <CopyFileToFolders Include="fragment_tutorial4.frag">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</DeploymentContent>
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="default_tutorial4.vert">
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
     <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
