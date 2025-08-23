@@ -7,14 +7,18 @@
 class VAO {
 
 	public:
-
+		// ID reference of VAO object
 		GLuint ID;
-
+		// Constructor that generates a VAO ID
 		VAO();
 
-		void LinkVBO(VBO VBO, GLuint layout);
+		// Links a VBO attribute such as a position or color to the VAO
+		void LinkAttrib(VBO VBO, GLuint layout, GLuint numComponents, GLenum type, GLsizeiptr stride, void* offset);
+		// binds the VAO
 		void Bind();
+		// unbinds the VAO
 		void Unbind();
+		// deletes the VAO
 		void Delete();
 };
 

@@ -55,10 +55,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="fragment_tutorial4.frag">
+    <CopyFileToFolders Include="default.frag">
       <Filter>Arquivos de Recurso\Shaders</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="default_tutorial4.vert">
+    <CopyFileToFolders Include="default.vert">
       <Filter>Arquivos de Recurso\Shaders</Filter>
     </CopyFileToFolders>
   </ItemGroup>

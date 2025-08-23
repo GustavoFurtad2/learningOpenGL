@@ -149,12 +149,12 @@
     <ClInclude Include="VBO.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="fragment_tutorial4.frag">
+    <CopyFileToFolders Include="default.frag">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</DeploymentContent>
       <FileType>Document</FileType>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="default_tutorial4.vert">
+    <CopyFileToFolders Include="default.vert">
       <FileType>Document</FileType>
     </CopyFileToFolders>
     <None Include="README.md" />
