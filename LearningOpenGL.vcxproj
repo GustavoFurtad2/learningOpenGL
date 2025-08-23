@@ -141,22 +141,10 @@
     <ClCompile Include="EBO.hpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="shaderClass.cpp" />
-    <ClCompile Include="tutorial3_index_buffer.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="tutorial4_organizing.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="VAO.cpp" />
     <ClCompile Include="VBO.cpp" />
     <ClInclude Include="shaderClass.hpp" />
-    <ClInclude Include="tutorial1_window.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClCompile Include="tutorial2_triangle.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClInclude Include="VAO.hpp" />
     <ClInclude Include="VBO.hpp" />
   </ItemGroup>
